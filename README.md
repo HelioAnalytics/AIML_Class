@@ -1,4 +1,4 @@
-#  PyHC 2024 Summer School
+#  Center for HelioAnalytics
 ## Machine Learning Tutorial
 
 Brought to you by: 
