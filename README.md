@@ -15,7 +15,7 @@ Python in Heliophysics Summer School</a> held May 20-24, 2024.
 | Session    | Lecture Topic                         |  Link    |  Timing    |
 |------------|------------------------------------------------|------|---------|
 | Session 1  | **Introduction**                               |      |  |
-| Session 1A | **What is Machine Learning?**                  |  <a href="/aiml-tutorial/CourseMaterials/Introduction.md">Link</a>    | 15 min. |
+| Session 1A | **What is Machine Learning?**                  |  <a href="/Introduction.md">Link</a>    | 15 min. |
 | Session 1B | **How does Machine Learning work?**                 |  <a href="/aiml-tutorial/CourseMaterials/models.md">Link</a>    |  15 min. |
 | Session 2  | **Examples: ML Models**                           |      |         |
 | Session 2A | **Clustering** | <a href="/aiml-tutorial/CourseMaterials/clustering_simple.ipynb">Link</a>   |   20 min. |
