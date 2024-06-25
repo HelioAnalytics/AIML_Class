@@ -37,7 +37,7 @@ Machine Learning is usually expressed in terms of two different categories:  **s
 
 **Supervised learning** is useful when you know what you want, and you just need to provide examples to the model so it can do it for you.  The two broad types of supervised learning.  One is **classification**, where you have pre-defined categories, and the model is supposed to take inputs and assign them to a category.  The other is **regression**, where the model is supposed to find a relationship between your input variables.  A least-squares-fit is a common type of regression, relating the independent variable (x) to the dependent variable (y). This x-y relationship is reflected in most ML models even if they aren't regressive, in that the input variable(s) is typically denoted as 'x' and the model's target output is denoted as 'y'.
 
-![Supervised vs. Unsupervised ML Figure](/images/intro/unsupervised2.png)
+![Supervised vs. Unsupervised ML Figure, credited to Yan, Liu & Guan, 2018, doi:10.3390/sym10120734](/images/intro/unsupervised2.png)
 
 **Unsupervised learning** looks for relationships or organizational structure in a dataset.  The primary difference between supervised and unsupervised learning is that the model is not given examples of a "correct" answer to train it.  Instead, the model uses the performance measure, or "cost function," to find the best way to reorganize the data.  
 
