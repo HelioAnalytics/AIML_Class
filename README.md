@@ -5,8 +5,8 @@ Brought to you by:
 
 <img src="images/cfha_logo.png" width="200" alt="Center for Helioanalytics logo"><img src="images/nccs_logo.png" width="200" alt="National Center for Climate Studies logo"><img src="images/heliocloud_logo.png" width="200" alt="HelioCloud.org logo">
 
-This series of tutorials is part of the <a href="https://heliopython.org/summer-school-24/">2024 
-Python in Heliophysics Summer School</a> held May 20-24, 2024.
+This series of tutorials was developed for the <a href="https://heliopython.org/summer-school-24/">2024 
+Python in Heliophysics Summer School</a> held May 20-24, 2024.  They have been adapted for use as a self-guided learning course.  
 
 
 ### Machine Learning Tutorial Course Materials
@@ -15,14 +15,14 @@ Python in Heliophysics Summer School</a> held May 20-24, 2024.
 | Session    | Lecture Topic                         |  Link    |  Timing    |
 |------------|------------------------------------------------|------|---------|
 | Session 1  | **Introduction**                               |      |  |
-| Session 1A | **What is Machine Learning?**                  |  <a href="/CourseMaterials/Introduction.md">Link</a>    | 15 min. |
-| Session 1B | **How does Machine Learning work?**                 |  <a href="/CourseMaterials/models.md">Link</a>    |  15 min. |
-| Session 2  | **Examples: ML Models**                           |      |         |
-| Session 2A | **Clustering** | <a href="/CourseMaterials/clustering_simple.ipynb">Link</a>   |   20 min. |
-| Session 2B | **Decision Boundary**                                           | <a href="/CourseMaterials/Boundary_simple.ipynb">Link</a>   |   20 min. |
-| Session 2C | **Decision Boundary using TensorFlow**                                              | <a href="/CourseMaterials/Boundary_TensorFlow.ipynb">Link</a>   |   20 min. |
-| Session 2D | **Classifier**                                              | <a href="/CourseMaterials/Classifier_example.ipynb">Link</a>   |   20 min. |
-| Session 3  | **Data Science Workflow**                           |  <a href="/CourseMaterials/Data_Science_Lifecycle.md">Link</a>  |   15 min. |
+| Session 1A | **What is Machine Learning?**                  |  <a href="/CourseMaterials/Introduction.md">Link</a>   | 
+| Session 1B | **How does Machine Learning work?**                 |  <a href="/CourseMaterials/models.md">Link</a>    |
+| Session 2  | **Examples: ML Models**                           |      |        
+| Session 2A | **Clustering** | <a href="/CourseMaterials/clustering_simple.ipynb">Link</a>   |  
+| Session 2B | **Decision Boundary**                                           | <a href="/CourseMaterials/Boundary_simple.ipynb">Link</a>   |  
+| Session 2C | **Decision Boundary using TensorFlow**                                              | <a href="/CourseMaterials/Boundary_TensorFlow.ipynb">Link</a>   |   
+| Session 2D | **Classifier**                                              | <a href="/CourseMaterials/Classifier_example.ipynb">Link</a>   |  
+| Session 3  | **Data Science Workflow**                           |  <a href="/CourseMaterials/Data_Science_Lifecycle.md">Link</a>  |   
 
 ##  Use and Dependencies
 These materials were developed for the summer school students, but are intended to function as stand-alone lessons freely to be used by anyone.  
