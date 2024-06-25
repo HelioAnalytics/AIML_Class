@@ -16,12 +16,15 @@ The **first stage of ML** is collecting the input data, or **E**. It is sometime
 
 The **second stage is data exploration** - getting to know your data and understanding its behavior and basic statistics so you can determine which models may work best. Choosing a model requires careful consideration of both the data and the task (or goal, output, etc.). Sometimes you also want to expicitly consider the performance measure and other times the performance measure is inherent in the model.  
 
-Once you have chosen a candidate model, you **train** the model to perform the task. A typical approach is called the **"train-validation-test split."** In this case, most of the data (usually 60-80%) is used to fit the model. The model creates a "hypothesis," evaluates how it performs the task on the training set, and then refines the hypothesis to improve the performance. 
+Once you have chosen a candidate model, you **train** the model to perform the task. A typical approach is using what we call a **"train-validation-test split."** In this case, most of the data (usually 60-80%) is used to fit the model. The model creates a "hypothesis," evaluates how it performs the task on the training set, and then refines the hypothesis to improve the performance. 
 
 It is possible that the model can perform perfectly on the training set. For example, if you have *n* values, the model can result in a polynomial of *n-1* dimensions that exactly hits every data point. However, if you add a new data point, the model may perform poorly. This is called **overfitting.**  A model performs perfectly on a discrete set of data but does not generalize to the other data that you intend to use. In contrast, a model can **underfit** the data, which usually meaning that the model is too simple to be useful. 
 
-![Underfitting and Overfitting Diagram, by Aarthi Kasirajan https://medium.com/@minions.k/underfit-and-overfit-explained-8161559b37db 
-](/images/under_overfitting.png)
+
+<!-- ![Underfitting and Overfitting Diagram, by Aarthi Kasirajan https://medium.com/@minions.k/underfit-and-overfit-explained-8161559b37db 
+](/aiml-tutorial/images/under_overfitting.png) -->
+<img src="../images/under_overfitting.png" width=1000 alt="Underfitting and Overfitting Diagram, by Aarthi Kasirajan https://medium.com/@minions.k/underfit-and-overfit-explained-8161559b37db">
+
 
 Thus, a model must strike the right balance between overfitting and underfitting. When the model is using the training set and improving according to the performance measure, it is working to reduce the *bias* in the model due to underfitting. To mitigate this tendency, a *validation* set is used to fine-tune the model. If the model has *high variance* and overfits the data, then it will not perform well on the validation set.  The validation set is used to update the **hyperparameters** of the model, which modifies the structure of the model and can be used to penalize overfitting. Thus, the interplay of the training and validation sets allow the model to work towards a robust fit of the data. Finally, the third "split" of the data, the testing set, is used to evaluate how well the model performed overall. 
 
@@ -53,10 +56,12 @@ Clustering is useful when you want to determine whether the data can be organize
 
 ### Decision Trees
 
-Decision trees are models that consist of nodes that apply tests to the data resulting in final results or decision in the resulting "leaves." 
+Decision trees are models that consist of nodes that apply tests to the data resulting in final results, or decision, in the resulting "leaves." 
 
-![Simple Decision Tree Diagram
-](/images/decision_tree.png)
+
+<!-- ![Simple Decision Tree Diagram
+](/aiml-tutorial/images/decision_tree.png) -->
+<img src="../images/decision_tree.png" width=600>
 
 Two common type of decision tree models are **random forests** and **gradient boosting models**.  A random forest combines the output of many individual trees to create a single result, while a gradient boosting model builds one tree at a time, with each consecutive tree, iterating to improve performance.  
 
@@ -74,9 +79,9 @@ Decision boundaries are often used in forecasting, to estimate the probability o
 
 ### Neural networks
 
-An excellent description of how neural networks work can be found in <a href="https://www.3blue1brown.com/topics/neural-networks">3Blue1Brown's video series</a>.
+An excellent description of how neural networks (NNs) work can be found in <a href="https://www.3blue1brown.com/topics/neural-networks">3Blue1Brown's video series</a>.
 
-(NNs) are usually the most well recognized of the machine learning models. They can be relatively simple, or they can be extremely complex.
+NNs are usually the most well recognized of the machine learning models. They can be relatively simple, or they can be extremely complex.
 
 NNs are essentially a network of matrices and functions. Each set of matrices and functions forms a "layer." The fitting process updates the values in each matrix to better fit the data, and the "neural" aspect is how the outputs from one layer are passed through an **activation function** that applies a weighting factor that can increase or decrease the strength of a value. The activation functions allow the neural network to respond differently to different inputs - in some cases a value may be important while in other cases it is not. A simple activation function may return "1" if the value exceeds a threshold, and "0" otherwise. 
 
@@ -84,9 +89,10 @@ An excellent review of activation functions can be found at <a href="https://www
 
 
 **Common Activation Functions**:
-![Common activation functions, figure adapted from kdnuggets.com https://www.kdnuggets.com/2022/06/activation-functions-work-deep-learning.html 
-](/images/activations.png)
 
+<!-- ![Common activation functions, figure adapted from kdnuggets.com https://www.kdnuggets.com/2022/06/activation-functions-work-deep-learning.html 
+](/aiml-tutorial/images/activations.png) -->
+<img src="../images/activations.png" width=750 alt="Common activation functions, figure adapted from kdnuggets.com https://www.kdnuggets.com/2022/06/activation-functions-work-deep-learning.html">
 
 **Neural Network Structure**:
 
@@ -101,10 +107,12 @@ Important parameters in building a NN:
 
 ## Loss Functions and Performance Measures
 
-A common performance measure is represented by a **loss function**, or **cost function**. A cost function is constructed from parameters that represent how far off the model is from "perfect" performance.  They quantify the model's output relative to the target output. It is rare to achieve perfect performance (because datasets are rarely perfect), so the objective of the model is to find a solution that minimizes the total cost.  
+A common performance measure is represented by a **loss function**, sometimes called a **cost function**. A cost function is constructed from parameters that represent how far off the model is from "perfect" performance.  It quantifies the model's output relative to the target output. It is rare to achieve perfect performance (because datasets are rarely perfect), so the objective of the model is to find a solution that minimizes the total cost.  
 
-![Simple Decision Tree Diagram
-](/images/performance_measure.png)
+<!-- ![Simple Decision Tree Diagram
+](/aiml-tutorial/images/performance_measure.png) -->
+<img src="../images/performance_measure.png" width=800>
+
 
 **Loss functions**, or error functions, can be the most important choice when building a neural network. They define the goal of the model, provide a measure of success, and can make the difference between an effective and ineffective model.
 
@@ -115,8 +123,10 @@ A common loss function is mean square error (MSE).  MSE is often used in regress
 
 ## Optimizers 
 
-![Learning rate and loss function diagram, from "Optimizers in Deep Learning" https://musstafa0804.medium.com/optimizers-in-deep-learning-7bf81fed78a0 
-](/images/gradient_loss.png)
+
+<!-- ![Learning rate and loss function diagram, from "Optimizers in Deep Learning" https://musstafa0804.medium.com/optimizers-in-deep-learning-7bf81fed78a0 
+](/aiml-tutorial/images/gradient_loss.png) -->
+<img src="../images/gradient_loss.png" width=800 alt='Learning rate and loss function diagram, from "Optimizers in Deep Learning" https://musstafa0804.medium.com/optimizers-in-deep-learning-7bf81fed78a0'>
 
 The most basic way to iterate on a solution is to compute the gradients with respect to the loss function and update the model towards the direction of decreasing loss. However, there are multiple pitfalls to simply following the gradients: loss functions can have local minima that are not the global minimum, and extremely complex models can be computationally expensive and take a long time to converge.   
 
