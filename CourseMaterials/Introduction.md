@@ -5,7 +5,7 @@
 **Machine learning** (ML) is generally recognized as a subset of **Artificial Intelligence** (AI). There are many ways that AI and ML are defined and represented:
 
 ![What are ML and AI Figure, source is "https://twitter.com/fpmarconi/status/794208040207740928"
-](/aiml-tutorial/images/intro/aivsml.png)
+](/images/intro/aivsml.png)
 <!--
 <img src="/aiml-tutorial/images/intro/aivsml.png" width="300" alt="What are ML and AI Figure, source is https://twitter.com/fpmarconi/status/794208040207740928">
 -->
