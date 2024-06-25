@@ -4,11 +4,11 @@
 ### What is Machine Learning?
 **Machine learning** (ML) is generally recognized as a subset of **Artificial Intelligence** (AI). There are many ways that AI and ML are defined and represented:
 
+
 <!-- ![What are ML and AI Figure, source is "https://twitter.com/fpmarconi/status/794208040207740928"
 ](/aiml-tutorial/images/intro/aivsml.png) -->
 
 <img src="../images/intro/aivsml.png" width="600" alt="What are ML and AI Figure, source is https://twitter.com/fpmarconi/status/794208040207740928">
-
 
  Most people know machine learning can be useful for automating and streamlining tasks that can be arduous for humans. Machine learning is much more than that - a skilled practitioner can allow the data to "speak for itself," find higher-level relationships, and new representations of your dataset that bring valuable information to light.
 
