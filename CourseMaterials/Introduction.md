@@ -1,5 +1,10 @@
 ## Introduction to Machine Learning
 
+### Before we start: three rules of using AI
+
+1) Always make it clear when/what/why/how you are using AI.
+2) Always validate/verify.  AI is not a replacement for humans, its focus should be helping humans work more effectively.
+3) Always be mindful of the impacts of using AI (including human impact, financial, environmental, scientific impact).
 
 ### What is Machine Learning?
 **Machine learning** (ML) is generally recognized as a subset of **Artificial Intelligence** (AI). There are many ways that AI and ML are defined and represented:
