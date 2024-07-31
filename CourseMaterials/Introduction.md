@@ -1,5 +1,10 @@
 ## Introduction to Machine Learning
 
+### Before we start: three rules of using AI
+
+1) Always make it clear when/what/why/how you are using AI.
+2) Always validate/verify.  AI is not a replacement for humans, its focus should be helping humans work more effectively.
+3) Always be mindful of the impacts of using AI (including human impact, financial, environmental, scientific impact).
 
 ### What is Machine Learning?
 **Machine learning** (ML) is generally recognized as a subset of **Artificial Intelligence** (AI). There are many ways that AI and ML are defined and represented:
@@ -37,7 +42,7 @@ Machine Learning is usually expressed in terms of two different categories:  **s
 
 **Supervised learning** is useful when you know what you want, and you just need to provide examples to the model so it can do it for you.  The two broad types of supervised learning.  One is **classification**, where you have pre-defined categories, and the model is supposed to take inputs and assign them to a category.  The other is **regression**, where the model is supposed to find a relationship between your input variables.  A least-squares-fit is a common type of regression, relating the independent variable (x) to the dependent variable (y). This x-y relationship is reflected in most ML models even if they aren't regressive, in that the input variable(s) is typically denoted as 'x' and the model's target output is denoted as 'y'.
 
-![Supervised vs. Unsupervised ML Figure](/aiml-tutorial/images/intro/unsupervised2.png)
+![Supervised vs. Unsupervised ML Figure, source is Yan, Liu & Guan 2018, 10.3390/sym10120734 https://www.researchgate.net/publication/329533120_Background_Augmentation_Generative_Adversarial_Networks_BAGANs_Effective_Data_Generation_Based_on_GAN-Augmented_3D_Synthesizing](/aiml-tutorial/images/intro/unsupervised2.png)
 
 **Unsupervised learning** looks for relationships or organizational structure in a dataset.  The primary difference between supervised and unsupervised learning is that the model is not given examples of a "correct" answer to train it.  Instead, the model uses the performance measure, or "cost function," to find the best way to reorganize the data.  
 
