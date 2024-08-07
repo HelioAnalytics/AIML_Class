@@ -5,7 +5,7 @@ Brought to you by:
 
 <img src="images/cfha_logo.png" width="200" alt="Center for Helioanalytics logo"><img src="images/nccs_logo.png" width="200" alt="National Center for Climate Studies logo"><img src="images/heliocloud_logo.png" width="200" alt="HelioCloud.org logo">
 
-This series of tutorials was developed for the <a href="https://heliopython.org/summer-school-24/">2024 
+This series of tutorials was developed for the <a href="https://heliopython.org/summer-school-24">2024 
 Python in Heliophysics Summer School</a> held May 20-24, 2024.  They have been adapted for use as a self-guided learning course.  
 
 
